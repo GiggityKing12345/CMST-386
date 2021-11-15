@@ -1,0 +1,91 @@
+body {
+	background-color: green;
+}
+
+h1 {
+	color:purple;
+	background-color: yellow;
+}
+h2 {
+	color:purple;
+	font:Times New Roman;
+	background-color: yellow;
+}
+h3 {
+	color:#e81bc9;
+	font-family: Lucida
+}
+p {
+	color:#56d3f0;
+	border-color:#287EC7;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+li {
+	color:Orange;
+	
+	font:Comic Sans;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}	
+a{
+	color:yellow;
+	font:Comic Sans;
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: purple;
+  width:300px;
+  height:100px;
+}
+nav {
+	color:purple;
+}
+main{
+	color: purple;
+}
+.div1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+}
+
+.div2 {
+  width: 300px;
+  height: 100px;  
+  padding: 50px;
+  border: 1px solid purple;
+}
